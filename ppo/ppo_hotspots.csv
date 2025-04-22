@@ -1,0 +1,46 @@
+Hierarchy Level	Metric Name	Metric Value
+0	Elapsed Time	6.018107
+1	CPU Time	5.271781
+2	Effective Time	4.870405
+2	Spin Time	0.019524
+3	Imbalance or Serial Spinning	0.0
+3	Lock Contention	0.0
+3	Other	0.019524
+2	Overhead Time	0.381852
+3	Creation	0.0
+3	Scheduling	0.0
+3	Reduction	0.0
+3	Atomics	0.0
+3	Other	0.381852
+1	Total Thread Count	11
+1	Paused Time	0.0
+0	Top Hotspots	
+0	Function	Module	CPU Time	% of CPU Time(%)
+0	LoadLibraryExW	KERNEL32.DLL	1.090720	20.7
+0	[python313.dll]	python313.dll	0.818762	15.5
+0	wopen	ucrtbase.dll	0.433171	8.2
+0	omp_in_parallel	libiomp5md.dll	0.381852	7.2
+0	PyEval_EvalFrameDefault	python313.dll	0.198247	3.8
+0	[Others]	N/A	2.349029	44.6
+0	Top Tasks	
+0	Task Type	Task Time	Task Count	Average Task Time
+0	void __cdecl cv::utils::logging::LogTagManager::assign(const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,struct cv::utils::logging::LogTag *)	0.000019	1	0.000019
+0	void __cdecl cv::ocl::setUseOpenCL(bool)	0.000010	1	0.000010
+0	struct cv::utils::logging::LogTag *__cdecl cv::utils::logging::LogTagManager::get(const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)	0.000000	1	0.000000
+0	Effective CPU Utilization	17.4
+1	Average Effective CPU Utilization	1.395 out of 8
+0	Collection and Platform Info	
+1	Application Command Line	python "ppo.py" 
+1	Operating System	Microsoft Windows 10
+1	Computer Name	DESKTOP-NEBAMNN
+1	Result Size	6922991
+1	Collection start time	17:13:13 13/04/2025 UTC
+1	Collection stop time	17:13:20 13/04/2025 UTC
+1	Collector Type	Event-based counting driver,User-mode sampling and tracing
+1	CPU	
+2	Name	Intel(R) microarchitecture code named Coffeelake
+2	Frequency	3000000000
+2	Logical CPU Count	8
+2	Cache Allocation Technology	
+3	Level 2 capability	not detected
+3	Level 3 capability	not detected
