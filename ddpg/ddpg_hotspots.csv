@@ -1,0 +1,46 @@
+Hierarchy Level	Metric Name	Metric Value
+0	Elapsed Time	6.011721
+1	CPU Time	5.126383
+2	Effective Time	5.003712
+2	Spin Time	0.122671
+3	Imbalance or Serial Spinning	0.0
+3	Lock Contention	0.0
+3	Other	0.122671
+2	Overhead Time	0.0
+3	Creation	0.0
+3	Scheduling	0.0
+3	Reduction	0.0
+3	Atomics	0.0
+3	Other	0.0
+1	Total Thread Count	11
+1	Paused Time	0.0
+0	Top Hotspots	
+0	Function	Module	CPU Time	% of CPU Time(%)
+0	LoadLibraryExW	KERNEL32.DLL	2.005756	39.1
+0	wopen	ucrtbase.dll	0.621523	12.1
+0	PyEval_EvalFrameDefault	python313.dll	0.241323	4.7
+0	func@0x18004f7ee	python313.dll	0.180406	3.5
+0	GetFileInformationByHandle	KERNELBASE.dll	0.131522	2.6
+0	[Others]	N/A	1.945854	38.0
+0	Top Tasks	
+0	Task Type	Task Time	Task Count	Average Task Time
+0	void __cdecl cv::utils::logging::LogTagManager::assign(const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &,struct cv::utils::logging::LogTag *)	0.000019	1	0.000019
+0	void __cdecl cv::ocl::setUseOpenCL(bool)	0.000010	1	0.000010
+0	struct cv::utils::logging::LogTag *__cdecl cv::utils::logging::LogTagManager::get(const class std::basic_string<char,struct std::char_traits<char>,class std::allocator<char> > &)	0.000001	1	0.000001
+0	Effective CPU Utilization	16.4
+1	Average Effective CPU Utilization	1.311 out of 8
+0	Collection and Platform Info	
+1	Application Command Line	python "ddpg.py" 
+1	Operating System	Microsoft Windows 10
+1	Computer Name	DESKTOP-NEBAMNN
+1	Result Size	6617395
+1	Collection start time	17:20:25 13/04/2025 UTC
+1	Collection stop time	17:20:31 13/04/2025 UTC
+1	Collector Type	Event-based counting driver,User-mode sampling and tracing
+1	CPU	
+2	Name	Intel(R) microarchitecture code named Coffeelake
+2	Frequency	3000000000
+2	Logical CPU Count	8
+2	Cache Allocation Technology	
+3	Level 2 capability	not detected
+3	Level 3 capability	not detected
